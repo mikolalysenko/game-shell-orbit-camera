@@ -1,0 +1,46 @@
+{
+  "name": "game-shell-orbit-camera",
+  "version": "0.0.0",
+  "description": "Attaches an orbit-camera to a game-shell with default key bindings",
+  "main": "camera.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "orbit-camera": "~0.0.1"
+  },
+  "devDependencies": {
+    "gl-matrix": "~2.0.0",
+    "gl-mesh": "~0.1.0",
+    "simple-3d-shader": "~0.0.0",
+    "gl-now": "~0.0.3",
+    "bunny": "~1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/game-shell-orbit-camera.git"
+  },
+  "keywords": [
+    "camera",
+    "webgl",
+    "3d",
+    "orbit",
+    "quaternion",
+    "game-shell",
+    "orbit-camera",
+    "arcball",
+    "rotation",
+    "default",
+    "key"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "5684ecf1af817473d8fa58952837540c2ef45ba0",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/game-shell-orbit-camera/issues"
+  }
+}
