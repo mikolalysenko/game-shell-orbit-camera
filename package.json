@@ -1,6 +1,6 @@
 {
   "name": "game-shell-orbit-camera",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Attaches an orbit-camera to a game-shell with default key bindings",
   "main": "camera.js",
   "directories": {
