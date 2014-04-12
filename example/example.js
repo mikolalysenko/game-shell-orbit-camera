@@ -14,6 +14,12 @@ camera.lookAt([0, 3, 20], [0, 3, 0], [0, 1, 0])
 
 shell.on("gl-init", function() {
   shader = simple3DShader(shell.gl)
+  
+  shader.bind()
+  shader.attributes.position.location = 0
+  shader.attributes.color.location = 1
+  shader.attributes.color = [0,0,0]
+  
   mesh = createMesh(shell.gl, require("bunny"))
 })
 
